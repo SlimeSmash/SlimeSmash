@@ -6,25 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #0f172a;
       color: #e5e7eb;
       margin: 0;
       padding: 20px;
     }
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
-      background: #020617;
       padding: 20px;
-      border-radius: 12px;
     }
-    h1, h2 {
+    h1 {
       color: #38bdf8;
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 2.2em;
     }
     p {
-      line-height: 1.6;
+      line-height: 1.7;
       color: #cbd5f5;
+      margin-bottom: 15px;
+    }
+    .section {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease;
+    }
+    .section:hover {
+      transform: translateY(-3px);
+    }
+    h2 {
+      color: #7dd3fc;
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.5em;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-top: 0;
     }
     footer {
       margin-top: 30px;
@@ -32,91 +58,73 @@
       font-size: 14px;
       opacity: 0.7;
     }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>SlimeSmash Privacy Policy</h1>
     <p><strong>Effective date: January 2026</strong></p>
-    <p>
-      SlimeSmash ("we," "our," or "the app") respects your privacy and is committed to protecting it. This policy explains how we collect, use, and handle data in our game.
-    </p>
-    <h2>1. Data We Collect</h2>
-    <p>
-      SlimeSmash does not collect personal information such as your name, email, address, or phone number.
-    </p>
-    <p>
-      We collect anonymous data for the purpose of improving the game experience:
-    </p>
-    <p>
-      • <strong>Crash logs</strong> — used to detect and fix bugs or crashes.<br>
-      • <strong>Diagnostics</strong> — used to monitor app performance and stability.<br>
-      • <strong>Other app performance data</strong> — helps us understand how the app runs on different devices.<br>
-      • <strong>Device or other IDs</strong> — a random identifier for cloud save and leaderboard functionality.
-    </p>
-    <p>
-      All data is collected anonymously and cannot identify individual users.
-    </p>
 
-    <h2>2. How We Use the Data</h2>
-    <p>
-      We use the data collected for:
-    </p>
-    <p>
-      • <strong>Analytics</strong> — to understand how the game is played and how it performs.<br>
-      • <strong>Fraud prevention and security</strong> — to detect unusual activity or cheating in leaderboards.<br>
-      • <strong>Game improvement</strong> — fixing bugs, improving performance, and enhancing user experience.
-    </p>
+    <div class="section">
+      <h2>1. Data We Collect</h2>
+      <p>SlimeSmash does not collect personal information such as your name, email, address, or phone number.</p>
+      <p>We collect anonymous data for the purpose of improving the game experience, including:</p>
+      <ul>
+        <li><strong>Crash logs</strong> — detect and fix bugs or crashes</li>
+        <li><strong>Diagnostics</strong> — monitor app performance and stability</li>
+        <li><strong>Other app performance data</strong> — understand how the app runs on different devices</li>
+        <li><strong>Device or other IDs</strong> — random identifier for cloud save and leaderboard functionality</li>
+      </ul>
+      <p>All data is anonymous and cannot identify individual users.</p>
+    </div>
 
-    <h2>3. Data Sharing</h2>
-    <p>
-      We do not share your data with third parties for advertising or other purposes.
-    </p>
-    <p>
-      The data collected is only sent to Unity Analytics and Unity Cloud Save, which help us monitor and improve the game.
-    </p>
+    <div class="section">
+      <h2>2. How We Use the Data</h2>
+      <ul>
+        <li><strong>Analytics</strong> — understand gameplay and performance</li>
+        <li><strong>Fraud prevention & security</strong> — detect unusual activity or cheating</li>
+        <li><strong>Game improvement</strong> — fix bugs, enhance performance, and improve user experience</li>
+      </ul>
+    </div>
 
-    <h2>4. Data Security</h2>
-    <p>
-      All data transmitted from your device is encrypted in transit.
-    </p>
-    <p>
-      We follow industry best practices to keep user data secure.
-    </p>
+    <div class="section">
+      <h2>3. Data Sharing</h2>
+      <p>We do not share your data with third parties for advertising or other purposes.</p>
+      <p>Collected data is only sent to Unity Analytics and Unity Cloud Save to help monitor and improve the game.</p>
+    </div>
 
-    <h2>5. Data Deletion</h2>
-    <p>
-      Currently, users cannot request deletion of data.
-    </p>
-    <p>
-      All collected data is anonymous and only used for analytics and leaderboard functionality.
-    </p>
+    <div class="section">
+      <h2>4. Data Security</h2>
+      <p>All data transmitted from your device is encrypted in transit. We follow industry best practices to keep user data secure.</p>
+    </div>
 
-    <h2>6. Children's Privacy</h2>
-    <p>
-      SlimeSmash is designed for users aged 5–15.
-    </p>
-    <p>
-      We comply with Google Play Families policy and applicable laws, including:
-    </p>
-    <p>
-      • US Children's Online Privacy Protection Act (COPPA)<br>
-      • EU General Data Protection Regulation (GDPR) for children
-    </p>
-    <p>
-      No personal information is collected from children.
-    </p>
+    <div class="section">
+      <h2>5. Data Deletion</h2>
+      <p>Currently, users cannot request deletion of data. All collected data is anonymous and used only for analytics and leaderboard functionality.</p>
+    </div>
 
-    <h2>7. Changes to This Policy</h2>
-    <p>
-      We may update this privacy policy from time to time. Any changes will be reflected on this page.
-    </p>
+    <div class="section">
+      <h2>6. Children’s Privacy</h2>
+      <p>SlimeSmash is intended for users aged 13 and older. No personal information is knowingly collected from children under 13. If you believe your child under 13 has provided personal information, please contact us to remove it.</p>
+    </div>
 
-    <h2>Contact Us</h2>
-    <p>
-      If you have questions about this privacy policy, please contact us at:<br>
-      Email: SlimeSmash.Dev@gmail.com
-    </p>
+    <div class="section">
+      <h2>7. Changes to This Policy</h2>
+      <p>We may update this privacy policy from time to time. Any changes will be reflected on this page.</p>
+    </div>
+
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>If you have questions about this privacy policy, please contact us at:<br>
+      Email: <a href="mailto:SlimeSmash.Dev@gmail.com">SlimeSmash.Dev@gmail.com</a></p>
+    </div>
 
     <footer>
       © 2026 SlimeSmash
